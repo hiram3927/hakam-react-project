@@ -17,7 +17,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div className="page-container">
           <Route path="/" exact component={HomePage} />
           <Route path="/feed" component={FeedPage} />
