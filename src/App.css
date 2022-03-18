@@ -1,7 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .App {
   height: 100vh;
 }
 
 .page-container {
   /* height: 100%; */
+}
+.container{
+  background-color: #271B2D;
+  height: 100vh;
+  padding-top: 100px;
+}
+.box{
+  background-color: #32283C;
+  width: 95%;
+  margin: 0 auto;
+  height: 309px;
+  border-radius: 24px;
+  color: white;
+  text-align: center;
+}
+.text{
+  font-weight: bolder;
+}
+.img{
+  padding-top: 50px;
+}
+.subtext{
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+.button{
+  width: 90%;
+  height: 47px;
+  line-height: 47px;
+  background-color: #271B2D;
+  margin: 0 auto;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { AppBar, BottomNavigation, BottomNavigationAction } from "@material-ui/core";
-import { Home, Face, People } from "@material-ui/icons";
+import { Home, Face, People, Adb, AddCircle, Apple } from "@material-ui/icons";
 import { BrowserRouter, Route, Link } from 'react-router-dom'
 import './App.css';
 import HomePage from './pages/Home';
@@ -28,24 +28,25 @@ const App = () => {
             <BottomNavigationAction
               component={Link}
               to="/"
-              label="Home"
+              label="벌레잡기"
               value="home"
-              icon={<Home />}
+              icon={<Adb />}
             />
             <BottomNavigationAction
               component={Link}
-              to="/feed"
-              label="Feed"
+              to="/cnrk"
+              label="추가하기"
               value="feed"
-              icon={<People />}
+              icon={<AddCircle />}
             />
             <BottomNavigationAction
               component={Link}
               to="/about"
-              label="Profile"
+              label="프로필"
               value="profile"
-              icon={<Face />}
+              icon={<Apple />}
             />
+            
           </BottomNavigation>
         </AppBar>
       </BrowserRouter>
