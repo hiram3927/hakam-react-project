@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/hakam-react-project/static/css/main.77b6c9e7.css",
+    "main.js": "/hakam-react-project/static/js/main.29ddf8c6.js",
+    "static/js/787.5277320e.chunk.js": "/hakam-react-project/static/js/787.5277320e.chunk.js",
+    "static/media/img1.png": "/hakam-react-project/static/media/img1.5e9fd2576cb587e1ffef.png",
+    "index.html": "/hakam-react-project/index.html",
+    "main.77b6c9e7.css.map": "/hakam-react-project/static/css/main.77b6c9e7.css.map",
+    "main.29ddf8c6.js.map": "/hakam-react-project/static/js/main.29ddf8c6.js.map",
+    "787.5277320e.chunk.js.map": "/hakam-react-project/static/js/787.5277320e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77b6c9e7.css",
+    "static/js/main.29ddf8c6.js"
+  ]
+}
